@@ -25,18 +25,19 @@ architecture commonly used in SOC and Blue Team environments.
 
 ## 🧱 Architecture Overview
 
-[ Attacker / Client ] 
-
-           ⬇
-
+[ Attacker / Client ]
+  
+        |
+        v
 [ pfSense Firewall ]
 
-           ⬇
+        |
+        v
 
 [ Linux Host (iptables) ]
 
-           ⬇
-
+        |
+        v
 [ Python + Scapy Analysis ]
 
 
